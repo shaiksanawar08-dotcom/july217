@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image position</title>
+        <style>
+            #center {
+               width: 400px;
+               height: 150px;
+               border: 5px solid beige;
+               background-color:coral;
+               object-fit:none;
+               object-position: center top;
+            }
+            #left {
+                width: 400px;
+                height: 150px;
+                border: 5px solid beige;
+                background-color:coral;
+                object-fit:none;
+                object-position: left top;
+            }
+            #right {
+                width: 400px;
+                height: 150px;
+                border: 5px solid beige;
+                background-color:coral;
+                object-fit:none;
+                object-position: right top;
+            }
+        </style>
+    </head>
+    <body>
+        <h3> body-position center</h3>
+        <img id = "center" src="cat.jpg"/>
+        <h3> body-position left</h3>
+        <img id = "left" src="cat.jpg"/>
+        <h3> body-position right</h3>
+        <img id = "right" src="cat.jpg"/>
+    </body>
+</html>

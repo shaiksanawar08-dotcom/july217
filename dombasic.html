@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM ka Example</title>
+</head>
+<body>
+
+<h1 id="heading">namaste dosto</h1>
+
+<p id="message">Welcome to this free vala webpage</p>
+
+<button onclick="changeContent()"> click karo mujhe </button>
+
+<script>
+
+function changeContent() {
+	let heading = document.getElementById("heading");
+	let message = document.getElementById("message");
+
+heading. innerHTML = "Welcome polluted people";
+message. innerHTML = "your mind is just like garabge";
+
+heading.style.color = "beige";
+message.style.color = "black";
+}
+</script>
+
+</body>
+</html>

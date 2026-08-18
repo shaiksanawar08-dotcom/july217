@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+
+<body>
+
+    <h1 id="heading">hallo student</h1>
+    <p id="message">this is javascript DOM example.</p>
+    <button id="btn">click me</button>
+
+    <script>
+        let heading = document.getElementById("heading");
+        let message = document.getElementById("message");
+        let button = document.getElementById("btn");
+
+        button.addEventListener("click", function() {
+
+            // Change text
+            heading.textContent = "Welcome to JavaScript";
+            message.textContent = "DOM is used to modify HTML elements.";
+
+            // Change CSS
+            heading.style.color = "brown";
+            heading.style.backgroundColor = "beige";
+        });
+    </script>
+
+</body>
+</html>
